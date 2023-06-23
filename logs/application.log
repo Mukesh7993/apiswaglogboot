@@ -1,0 +1,47 @@
+2023-06-21 17:53:27,020 INFO  [restartedMain] c.s.s.SpringrestApplication - Starting SpringrestApplication using Java 17.0.7 on MDEVPC-159 with PID 11360 (C:\Users\user\Downloads\springrest\target\classes started by user in C:\Users\user\Downloads\springrest)
+2023-06-21 17:53:27,022 INFO  [restartedMain] c.s.s.SpringrestApplication - No active profile set, falling back to default profiles: default
+2023-06-21 17:53:27,057 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-21 17:53:27,057 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-21 17:53:27,610 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-21 17:53:27,653 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36 ms. Found 2 JPA repository interfaces.
+2023-06-21 17:53:28,102 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-06-21 17:53:28,110 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-21 17:53:28,110 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-06-21 17:53:28,110 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2023-06-21 17:53:28,166 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-06-21 17:53:28,166 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1108 ms
+2023-06-21 17:53:28,327 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-21 17:53:28,380 INFO  [restartedMain] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.33
+2023-06-21 17:53:28,511 INFO  [restartedMain] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-06-21 17:53:28,597 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-21 17:53:28,826 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-21 17:53:28,843 INFO  [restartedMain] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2023-06-21 17:53:29,831 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-21 17:53:29,837 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21 17:53:30,147 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-21 17:53:30,244 INFO  [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-06-21 17:53:30,334 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-06-21 17:53:30,447 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-06-21 17:53:30,463 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-21 17:53:30,463 INFO  [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2023-06-21 17:53:30,479 INFO  [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 2 custom documentation plugin(s)
+2023-06-21 17:53:30,498 INFO  [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2023-06-21 17:53:30,591 INFO  [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2023-06-21 17:53:30,594 INFO  [restartedMain] s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: addCourseUsingPOST_1
+2023-06-21 17:53:30,597 INFO  [restartedMain] s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: createWordUsingPOST_1
+2023-06-21 17:53:30,598 INFO  [restartedMain] s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteCourseUsingDELETE_1
+2023-06-21 17:53:30,599 INFO  [restartedMain] s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: getAllWordsUsingGET_1
+2023-06-21 17:53:30,600 INFO  [restartedMain] s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: getCourcesUsingGET_1
+2023-06-21 17:53:30,604 INFO  [restartedMain] s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: getCourseUsingGET_1
+2023-06-21 17:53:30,606 INFO  [restartedMain] s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: homeUsingGET_1
+2023-06-21 17:53:30,607 INFO  [restartedMain] s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateCourseUsingPUT_1
+2023-06-21 17:53:30,617 INFO  [restartedMain] c.s.s.SpringrestApplication - Started SpringrestApplication in 3.831 seconds (JVM running for 4.507)
+2023-06-21 17:53:44,831 INFO  [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-21 17:53:44,831 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-06-21 17:53:44,832 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-06-21 17:53:44,850 INFO  [http-nio-8080-exec-1] c.s.s.controller.MyController - This is an informational log message
+2023-06-21 17:53:44,850 ERROR [http-nio-8080-exec-1] c.s.s.controller.MyController - This is an error log message
+2023-06-21 18:35:29,893 INFO  [RMI TCP Connection(44)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-06-21 18:35:29,917 INFO  [RMI TCP Connection(44)-127.0.0.1] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21 18:35:29,920 INFO  [RMI TCP Connection(44)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-06-21 18:35:29,923 INFO  [RMI TCP Connection(44)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
